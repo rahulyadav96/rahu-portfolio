@@ -5,14 +5,8 @@
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
-   margin: -31px;
-   margin-left:-7px;
-  
-  /* border: 6px solid rgba(0, 77, 64, 0.4);  */
+  margin: -31px;
+  margin-left:-7px;
   background-color: teal;
   border-radius: 50% !important;
 }
@@ -86,7 +80,7 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
+  background: #fff; 
   color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
@@ -97,10 +91,6 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
 
 .contactme {
   position: relative;
@@ -129,34 +119,10 @@ body {
   color: #333;
   font-size: 1em;
 }
-
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
-
 a {
   color: #004d40;
 }
-
-/* main blockqoute */
-
 /* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
-
-blockquote {
   border-left: 5px solid #795548;
   color: #795548;
   font-size: 125%;
@@ -168,7 +134,7 @@ blockquote {
 blockquote * {
   font-size: inherit;
   line-height: inherit;
-}
+} */
 
 .text-center {
   text-align: center;
@@ -298,10 +264,9 @@ li.logo span {
 }
 
 h3 {
-  font-weight: 200;
-  margin-bottom: 60px;
+  font-weight: 300;
   margin-top: 0;
-  padding: 30px 40px;
+  padding: 20px 30px;
   text-transform: uppercase;
 }
 
@@ -314,13 +279,6 @@ h3 {
 .full-height {
   height: 100vh;
 }
-
-/* Original */
-
-/* #intro.section {
-  background: url(../../assets/img/white-ai-wallpaper.jpg) no-repeat top center/cover;
-  position: relative;
-} */
 
 #intro.section {
   background: #a7ffeb repeat;
@@ -335,18 +293,9 @@ h3 {
   top: 0;
 }
 
-/* #intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-} */
-
 #intro.section .container *:not(span) {
   font-weight: 300;
-  /* font-weight: 400; */
   line-height: 150%;
-  /* padding: 0 0px; */
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -485,8 +434,9 @@ a.hoverline:hover {
 
 #skills h4 {
   border-bottom: 1px solid #ddd;
-  margin-bottom: 30px;
+  margin: 0px 0 30px;
   padding-bottom: 20px;
+  font-size: 2em;
 }
 
 #skills .col img.responsive-img {
@@ -554,20 +504,9 @@ small {
 .teal-text {
   color: #008073 !important;
 }
-
-/* .teal-text {
-  color: #0b5e86 !important;
-} */
-
-/* .teal */
-
 .teal {
   background-color: #008073 !important;
 }
-
-/* .teal {
-  background-color: #00695c !important;
-} */
 
 @media (min-width: 1200px) {
   #experience .container {
