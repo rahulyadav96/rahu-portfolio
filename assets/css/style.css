@@ -15,6 +15,15 @@
   width: 100%;
   height: auto;
 }
+.intro-pic{
+  background-color: teal;
+  border-radius: 10px;
+  box-shadow: gray;
+}
+.intro-pic>img{
+  width: 400px;
+}
+
 
 .tracker {
   /* visibility: hidden; */
@@ -266,7 +275,7 @@ li.logo span {
 h3 {
   font-weight: 300;
   margin-top: 0;
-  padding: 20px 30px;
+  padding: 15px 30px;
   text-transform: uppercase;
 }
 
@@ -314,6 +323,8 @@ h3 {
   position: absolute;
   top: 0;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .waves-effect.waves-blue .waves-ripple {
@@ -474,6 +485,9 @@ a.hoverline:hover {
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
+#contact{
+  height: 100vh;
+}
 
 #contact a:not(.btn-floating) {
   bottom: 6px;
@@ -504,6 +518,7 @@ small {
 .teal-text {
   color: #008073 !important;
 }
+
 .teal {
   background-color: #008073 !important;
 }
@@ -511,6 +526,9 @@ small {
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
+  }
+  .intro-pic{
+    display: none;
   }
 }
 
@@ -520,11 +538,17 @@ small {
     line-height: 200%;
     margin-left: 20px;
   }
+  .intro-pic{
+    display: none;
+  }
 }
 
 @media (max-width: 1160px) {
   .card ul li {
     line-height: 150%;
+  }
+  .intro-pic{
+    display: none;
   }
 }
 
@@ -593,6 +617,21 @@ small {
     right: initial;
     top: initial;
   }
+  .intro-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro-pic{
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+  
+  }
+  .intro-pic>img{
+    width: 400px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -632,5 +671,13 @@ small {
   }
   #intro.section {
     background-position-x: 30%;
+  }
+  .intro-cont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro-pic>img{
+    width: 250px;
   }
 }
