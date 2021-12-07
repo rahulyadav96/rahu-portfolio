@@ -88,7 +88,7 @@
 
 .readme {
   position: relative;
-  padding: 11px 35px;
+  padding: 11px 35px !important;
   background: #fff; 
   color: #00796b;
   border: 2px solid #fff;
@@ -103,7 +103,7 @@
 
 .contactme {
   position: relative;
-  padding: 11px 35px;
+  padding: 11px 35px !important;
   background: none;
   color: #fff;
   border: 2px solid #fff;
@@ -274,7 +274,7 @@ li.logo span {
 
 h3 {
   font-weight: 300;
-  margin-top: 0;
+  margin:  0 0 50px 0;
   padding: 15px 30px;
   text-transform: uppercase;
 }
@@ -442,7 +442,11 @@ a.hoverline:hover {
 #skills .card.large {
   height: 360px;
 }
-
+.ul-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 #skills h4 {
   border-bottom: 1px solid #ddd;
   margin: 0px 0 30px;
@@ -680,4 +684,6 @@ small {
   .intro-pic>img{
     width: 250px;
   }
+
+
 }
