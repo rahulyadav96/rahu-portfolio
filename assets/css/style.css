@@ -347,7 +347,8 @@ h3 {
 }
 
 .card .card-content {
-  padding-bottom: 30px;
+ 
+  height: auto !important;
 }
 
 .card .card-content p {
@@ -453,6 +454,9 @@ a.hoverline:hover {
   vertical-align: middle;
   display: table-cell;
 }
+.card.medium{
+  height: auto;
+}
 
 .card.large .card-content p {
   color: inherit;
@@ -481,7 +485,7 @@ a.hoverline:hover {
   margin-bottom: 0;
 }
 #contact{
-  height: 100vh;
+  height:100vh;
 }
 
 #contact a:not(.btn-floating) {
@@ -516,6 +520,11 @@ small {
 
 .teal {
   background-color: #008073 !important;
+}
+.project-link{
+  position: static !important;
+  padding: 10px 0 0 0 !important;
+  margin-top: 10px !important;
 }
 
 @media (min-width: 1200px) {
