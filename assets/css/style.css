@@ -250,6 +250,8 @@ ul.side-nav.fixed li.logo {
   height: 100%;
   background-color: teal;
   border-radius: 50%;
+  object-fit: cover;
+    object-position: center;
 }
 
 .brand-logo h1 {
